@@ -1,10 +1,16 @@
 Budget Tracker
+
+
 Project Description
+
 This project is a simple Budget Tracker website created using HTML and CSS. The purpose of the website is to help users organize and view their expenses in one place.
 This project is a continuation of the Week 1 Budget Tracker assignment. In Week 2, additional HTML elements and advanced CSS selectors were added to improve the website.
 
+
 Features
+
 Expense Form
+
 The website contains an Add Expense section with a form.
 The form includes:
 An input for the expense name
@@ -16,8 +22,10 @@ The button does not perform any action yet. JavaScript functionality will be add
 
 
 Expense Table
+
 The Your Expenses section contains a structured HTML table.
 The table includes the following columns:
+
 Name
 Amount
 Category
@@ -32,11 +40,14 @@ The table uses:
 <td>
 
 
+
 Five sample expenses were added to demonstrate how the table works.
 
 
 Multimedia Content
+
 The website includes:
+
 A Budget Tracker logo image using the <img> element
 A budgeting-related YouTube video embedded using an <iframe>
 
@@ -49,6 +60,7 @@ Users can click the section to read instructions about how the Budget Tracker wo
 
 
 Advanced CSS Selectors
+
 Several advanced CSS selectors were used in the stylesheet, including:
 
 Descendant selectors
@@ -61,6 +73,7 @@ input:focus
 
 
 Styling
+
 The website uses CSS to improve its appearance. The styling includes:
 
 Background colors
@@ -74,11 +87,13 @@ Button hover effects
 Responsive video styling
 
 Technologies Used
+
 HTML5
 CSS3
 
 
 Project Files
+
 The project contains the following files:
 
 index.html - Contains the structure and content of the Budget Tracker website.
