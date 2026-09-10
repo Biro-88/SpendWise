@@ -1,41 +1,189 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Budget Tracker</title>
 
-    <!-- Link to the CSS file -->
-    <link rel="stylesheet" href="style.css">
+```
+<title>Budget Tracker</title>
+
+<!-- Link to the CSS file -->
+<link rel="stylesheet" href="style.css">
+```
+
 </head>
 
 <body>
 
-    <!-- Main heading and description -->
-    <header>
-        <h1>Budget Tracker</h1>
-        <p>Track your income and expenses in one place.</p>
-    </header>
+```
+<!-- Main heading and description -->
+<header>
+    <!-- Budget Tracker Logo -->
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png"
+         alt="Budget Tracker Logo"
+         width="80">
 
-    <!-- Add Expense Section -->
-    <section id="add-expense">
-        <h2>Add Expense</h2>
+    <h1>Budget Tracker</h1>
+    <p>Track your income and expenses in one place.</p>
+</header>
 
+
+<!-- Add Expense Section -->
+<section id="add-expense">
+
+    <h2>Add Expense</h2>
+
+    <!-- Expense Form -->
+    <form>
+
+        <!-- Expense Name -->
         <label for="expense-name">Expense Name:</label>
-        <input type="text" id="expense-name" placeholder="Enter expense name">
 
-        <label for="amount">Amount:</label>
-        <input type="number" id="amount" placeholder="Enter amount">
+        <input
+            type="text"
+            id="expense-name"
+            placeholder="Enter expense name">
 
-        <label for="category">Category:</label>
-        <input type="text" id="category" placeholder="Enter category">
-    </section>
 
-    <!-- Your Expenses Section -->
-    <section class="expenses">
-        <h2>Your Expenses</h2>
-        <p class="placeholder">No expenses yet.</p>
-    </section>
+        <!-- Expense Amount -->
+        <label for="expense-amount">Amount:</label>
+
+        <input
+            type="number"
+            id="expense-amount"
+            placeholder="Enter amount">
+
+
+        <!-- Expense Category -->
+        <label for="expense-category">Category:</label>
+
+        <select id="expense-category">
+
+            <option value="food">Food</option>
+
+            <option value="transport">Transport</option>
+
+            <option value="rent">Rent</option>
+
+            <option value="entertainment">Entertainment</option>
+
+            <option value="other">Other</option>
+
+        </select>
+
+
+        <!-- Add Expense Button -->
+        <button type="button">Add Expense</button>
+
+    </form>
+
+</section>
+
+
+<!-- Your Expenses Section -->
+<section class="expenses">
+
+    <h2>Your Expenses</h2>
+
+    <!-- Expense Table -->
+    <table>
+
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+
+
+        <!-- Table Data -->
+        <tbody>
+
+            <tr>
+                <td>Groceries</td>
+                <td>$50</td>
+                <td>Food</td>
+                <td>September 1, 2026</td>
+            </tr>
+
+            <tr>
+                <td>Bus Fare</td>
+                <td>$10</td>
+                <td>Transport</td>
+                <td>September 2, 2026</td>
+            </tr>
+
+            <tr>
+                <td>House Rent</td>
+                <td>$300</td>
+                <td>Rent</td>
+                <td>September 3, 2026</td>
+            </tr>
+
+            <tr>
+                <td>Movie Ticket</td>
+                <td>$15</td>
+                <td>Entertainment</td>
+                <td>September 4, 2026</td>
+            </tr>
+
+            <tr>
+                <td>Phone Credit</td>
+                <td>$20</td>
+                <td>Other</td>
+                <td>September 5, 2026</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</section>
+
+
+<!-- How to Use the Tracker -->
+<section class="instructions">
+
+    <details>
+
+        <summary>How to use this tracker</summary>
+
+        <p>
+            Enter the name of your expense, the amount, and choose a category.
+            Then click the Add Expense button. The button will become functional
+            later when JavaScript is added to the project.
+        </p>
+
+    </details>
+
+</section>
+
+
+<!-- Budgeting Video -->
+
+<section class="video-section">
+
+```
+<h2>Budgeting Tips</h2>
+
+<iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/pF8J4rfexW0"
+    title="Beginners Guide to Budgeting"
+    frameborder="0"
+    allowfullscreen>
+</iframe>
+```
+
+</section>
+
 
 </body>
+
 </html>
