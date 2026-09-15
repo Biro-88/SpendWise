@@ -1,136 +1,160 @@
-Budget Tracker
+SpendWise - Budget Tracker
 
+Project Overview
 
-Project Description
+SpendWise is a simple Budget Tracker designed to help users organize and view their expenses in one place.
 
-This project is a simple Budget Tracker website created using HTML and CSS. The purpose of the website is to help users organize and view their expenses in one place.
-This project is a continuation of the Week 1 Budget Tracker assignment. In Week 2, additional HTML elements and advanced CSS selectors were added to improve the website.
+This project is a continuation of the Budget Tracker application developed in previous weeks. For Week 3, the focus was on improving the visual identity and user interface using CSS.
 
+No new functionality was added. The existing HTML structure was enhanced through CSS styling.
 
 Features
 
-Expense Form
+The current Budget Tracker includes:
 
-The website contains an Add Expense section with a form.
-The form includes:
-An input for the expense name
-An input for the expense amount
-A category dropdown menu
-Five categories: Food, Transport, Rent, Entertainment, and Other
-An Add Expense button
-The button does not perform any action yet. JavaScript functionality will be added in a future week.
+Budget Tracker heading and description
+Add Expense form
+Expense name input
+Expense amount input
+Expense category dropdown
+Add Expense button
+Expense table
+Sample expense records
+How to Use section
+Budgeting Tips video
+Technologies Used
+HTML5
+CSS3
+Google Fonts
+YouTube embedded video
+Project Files
+SpendWise/
+│
+├── index.html
+├── style.css
+└── README.md
+index.html
 
+The index.html file contains the structure of the Budget Tracker.
 
+It includes:
 
-Expense Table
+The main page heading and description
+The Add Expense form
+Form labels and input fields
+Expense category dropdown
+Add Expense button
+Expense table
+Instructions section
+Budgeting Tips video
+style.css
 
-The Your Expenses section contains a structured HTML table.
+The style.css file controls the visual appearance of the application.
 
-The table includes the following columns:
+It includes:
 
-Name
-Amount
-Category
-Date
+Color palette
+Google Fonts
+Typography
+Form styling
+Button styling
+Table styling
+Alternating table row colors
+Borders
+Padding
+Margins
+Border radius
+Hover and focus effects
+Responsive styling
+README.md
 
-The table uses:
-<table>
-<thead>
-<tbody>
-<tr>
-<th>
-<td>
+This file explains the purpose of the project, the technologies used, the project structure, and the visual design improvements made for Week 3.
 
+Week 3 Visual Design Improvements
+1. Intentional Color Palette
 
+A consistent color palette was selected to give the Budget Tracker a clean and professional appearance.
 
+The main colors are used for:
 
-Five sample expenses were added to demonstrate how the table works.
-
-
-Multimedia Content
-
-The website includes:
-
-A Budget Tracker logo image using the <img> element
-
-A budgeting-related YouTube video embedded using an <iframe>
-
-
-Interactive Elements
-
-The website includes a collapsible "How to Use This Tracker" section using:
-
-<details>
-  
-<summary>
-
-Users can click the section to read instructions about how the Budget Tracker works.
-
-
-
-
-Advanced CSS Selectors
-
-Several advanced CSS selectors were used in the stylesheet, including:
-
-Descendant selectors
-
-Pseudo-class selectors
-
-nth-child(even) for alternating table row colors
-
-first-child
-
-input:not([type="submit"])
-
-input:focus
-
-:hover effects
-
-
-
-Styling
-
-The website uses CSS to improve its appearance. The styling includes:
-
-Background colors
-
+Page background
+Main headings
+Section headings
+Buttons
+Table headers
+Form focus states
+Table hover effects
 Borders
 
+The colors are stored as CSS variables so they can be reused consistently throughout the application.
+
+2. Typography
+
+Google Fonts were used to improve readability and create a clear visual hierarchy.
+
+Poppins is used for headings.
+DM Sans is used for body text, labels, form controls, buttons, and table content.
+
+This creates a clear distinction between headings and regular content.
+
+3. Table and Form Styling
+
+The Add Expense form was improved with:
+
+Consistent spacing
+Input padding
+Borders
 Rounded corners
+Focus effects
+Styled labels
+A cohesive button design
 
-Table styling
+The expense table was improved with:
 
-Alternating table row colors
-
+A colored table header
+Cell padding
+Borders
+Alternating row colors
 Hover effects
+Rounded corners
+4. CSS Box Model
 
-Focus effects for inputs
+The CSS Box Model was intentionally used throughout the application.
 
-Button hover effects
+The page heading, Add Expense form, and Expense Table are displayed as separate visual cards.
 
-Responsive video styling
+The following properties were used:
 
-Technologies Used
-
-HTML5
-
-CSS3
-
-
-
-Project Files
+margin to create space between sections
+padding to create space inside sections
+border to define card boundaries
+border-radius to create a modern appearance
+Design Goals
 
 
-The project contains the following files:
+The main design goals for Week 3 were:
 
-index.html - Contains the structure and content of the Budget Tracker website.
-
-style.css - Contains the styling for the website.
-
-README.md - Explains the project and its features.
-
-
+Make the application easier to read.
+Create a consistent visual identity.
+Improve the appearance of the form and table.
+Create clear separation between page sections.
+Make the application look more polished and professional.
+Maintain the existing project structure from previous weeks.
 Future Improvements
 
-In future weeks, JavaScript will be added to make the Budget Tracker interactive. Users will eventually be able to add, edit, and manage expenses dynamically.
+
+Future versions of SpendWise could include:
+
+JavaScript functionality for adding expenses
+Automatic expense calculations
+Total spending display
+Expense deletion
+Expense editing
+Local storage
+Monthly budget tracking
+Data visualization
+
+
+Author
+
+Biro Okwory
