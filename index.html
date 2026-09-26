@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>SpendWise - Budget Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<!-- Main Dashboard Layout -->
+<div class="dashboard">
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+
+        <div class="brand">
+            <img
+                src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png"
+                alt="SpendWise Logo"
+                width="55"
+            >
+
+            <h2>SpendWise</h2>
+        </div>
+
+        <nav class="navigation" aria-label="Main navigation">
+
+            <a href="#dashboard" class="nav-item active">
+                <span>🏠</span>
+                <span>Dashboard</span>
+            </a>
+
+            <a href="#expenses" class="nav-item">
+                <span>💳</span>
+                <span>Expenses</span>
+            </a>
+
+            <a href="#budget" class="nav-item">
+                <span>💰</span>
+                <span>Budget</span>
+            </a>
+
+            <a href="#savings" class="nav-item">
+                <span>📈</span>
+                <span>Savings</span>
+            </a>
+
+            <a href="#reports" class="nav-item">
+                <span>📊</span>
+                <span>Reports</span>
+            </a>
+
+        </nav>
+
+        <div class="sidebar-footer">
+            <p>SpendWise</p>
+            <small>Smart budgeting made simple.</small>
+        </div>
+
+    </aside>
+
+
+    <!-- Main Content -->
+    <main class="main-content" id="dashboard">
+
+        <!-- Dashboard Header -->
+        <header class="dashboard-header">
+
+            <div class="header-title">
+                <p class="welcome-text">Welcome back!</p>
+                <h1>Financial Dashboard</h1>
+                <p>Track your spending and manage your budget in one place.</p>
+            </div>
+
+            <div class="header-actions">
+                <div class="balance">
+                    <span>Available Balance</span>
+                    <strong>$1,250.00</strong>
+                </div>
+
+                <button type="button" class="profile-button">
+                    BO
+                </button>
+            </div>
+
+        </header>
+
+
+        <!-- Dashboard Summary -->
+        <section class="summary-grid" aria-label="Budget summary">
+
+            <div class="summary-card">
+                <span>Total Budget</span>
+                <strong>$2,500</strong>
+                <small>Monthly budget</small>
+            </div>
+
+            <div class="summary-card">
+                <span>Total Spent</span>
+                <strong>$1,250</strong>
+                <small>50% of budget used</small>
+            </div>
+
+            <div class="summary-card">
+                <span>Savings</span>
+                <strong>$750</strong>
+                <small>30% of monthly budget</small>
+            </div>
+
+        </section>
+
+
+        <!-- Expense Categories -->
+        <section class="category-section" id="expenses">
+
+            <div class="section-heading">
+                <div>
+                    <p class="section-label">Monthly spending</p>
+                    <h2>Expense Categories</h2>
+                </div>
+
+                <span class="period">September 2026</span>
+            </div>
+
+
+            <!-- Category Cards -->
+            <div class="category-grid">
+
+                <!-- Food -->
+                <article class="category-card" tabindex="0">
+
+                    <div class="card-top">
+                        <div class="category-icon">🍔</div>
+                        <span class="percentage">20%</span>
+                    </div>
+
+                    <div class="card-content">
+                        <h3>Food</h3>
+                        <p>Groceries and meals</p>
+                    </div>
+
+                    <div class="card-bottom">
+                        <strong>$250</strong>
+                        <span>of $500</span>
+                    </div>
+
+                    <div class="progress">
+                        <span style="width: 50%;"></span>
+                    </div>
+
+                </article>
+
+
+                <!-- Transport -->
+                <article class="category-card" tabindex="0">
+
+                    <div class="card-top">
+                        <div class="category-icon">🚌</div>
+                        <span class="percentage">12%</span>
+                    </div>
+
+                    <div class="card-content">
+                        <h3>Transport</h3>
+                        <p>Bus fares and travel</p>
+                    </div>
+
+                    <div class="card-bottom">
+                        <strong>$150</strong>
+                        <span>of $300</span>
+                    </div>
+
+                    <div class="progress">
+                        <span style="width: 50%;"></span>
+                    </div>
+
+                </article>
+
+
+                <!-- Rent -->
+                <article class="category-card" tabindex="0">
+
+                    <div class="card-top">
+                        <div class="category-icon">🏠</div>
+                        <span class="percentage">35%</span>
+                    </div>
+
+                    <div class="card-content">
+                        <h3>Rent</h3>
+                        <p>Monthly house rent</p>
+                    </div>
+
+                    <div class="card-bottom">
+                        <strong>$500</strong>
+                        <span>of $600</span>
+                    </div>
+
+                    <div class="progress">
+                        <span style="width: 83%;"></span>
+                    </div>
+
+                </article>
+
+
+                <!-- Entertainment -->
+                <article class="category-card" tabindex="0">
+
+                    <div class="card-top">
+                        <div class="category-icon">🎬</div>
+                        <span class="percentage">8%</span>
+                    </div>
+
+                    <div class="card-content">
+                        <h3>Entertainment</h3>
+                        <p>Movies and recreation</p>
+                    </div>
+
+                    <div class="card-bottom">
+                        <strong>$100</strong>
+                        <span>of $200</span>
+                    </div>
+
+                    <div class="progress">
+                        <span style="width: 50%;"></span>
+                    </div>
+
+                </article>
+
+
+                <!-- Savings -->
+                <article class="category-card" tabindex="0" id="savings">
+
+                    <div class="card-top">
+                        <div class="category-icon">💰</div>
+                        <span class="percentage">30%</span>
+                    </div>
+
+                    <div class="card-content">
+                        <h3>Savings</h3>
+                        <p>Emergency and future goals</p>
+                    </div>
+
+                    <div class="card-bottom">
+                        <strong>$750</strong>
+                        <span>of $1,000</span>
+                    </div>
+
+                    <div class="progress">
+                        <span style="width: 75%;"></span>
+                    </div>
+
+                </article>
+
+
+                <!-- Utilities -->
+                <article class="category-card" tabindex="0">
+
+                    <div class="card-top">
+                        <div class="category-icon">💡</div>
+                        <span class="percentage">10%</span>
+                    </div>
+
+                    <div class="card-content">
+                        <h3>Utilities</h3>
+                        <p>Electricity and phone bills</p>
+                    </div>
+
+                    <div class="card-bottom">
+                        <strong>$125</strong>
+                        <span>of $250</span>
+                    </div>
+
+                    <div class="progress">
+                        <span style="width: 50%;"></span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Add Expense -->
+        <section class="dashboard-panel" id="budget">
+
+            <div class="panel-heading">
+                <div>
+                    <p class="section-label">Quick entry</p>
+                    <h2>Add Expense</h2>
+                </div>
+            </div>
+
+            <form class="expense-form">
+
+                <div class="form-group">
+                    <label for="expense-name">Expense Name</label>
+                    <input
+                        type="text"
+                        id="expense-name"
+                        placeholder="Enter expense name"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="expense-amount">Amount</label>
+                    <input
+                        type="number"
+                        id="expense-amount"
+                        placeholder="Enter amount"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="expense-category">Category</label>
+
+                    <select id="expense-category">
+                        <option value="food">Food</option>
+                        <option value="transport">Transport</option>
+                        <option value="rent">Rent</option>
+                        <option value="entertainment">Entertainment</option>
+                        <option value="savings">Savings</option>
+                        <option value="utilities">Utilities</option>
+                    </select>
+                </div>
+
+                <button type="button" class="add-button">
+                    Add Expense
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- Recent Expenses -->
+        <section class="dashboard-panel" id="reports">
+
+            <div class="panel-heading">
+                <div>
+                    <p class="section-label">Latest activity</p>
+                    <h2>Recent Expenses</h2>
+                </div>
+
+                <span class="period">September 2026</span>
+            </div>
+
+            <div class="expense-list">
+
+                <div class="expense-row">
+                    <div class="expense-info">
+                        <span class="expense-icon">🛒</span>
+                        <div>
+                            <strong>Groceries</strong>
+                            <small>Food</small>
+                        </div>
+                    </div>
+
+                    <strong>$50.00</strong>
+                </div>
+
+                <div class="expense-row">
+                    <div class="expense-info">
+                        <span class="expense-icon">🚌</span>
+                        <div>
+                            <strong>Bus Fare</strong>
+                            <small>Transport</small>
+                        </div>
+                    </div>
+
+                    <strong>$10.00</strong>
+                </div>
+
+                <div class="expense-row">
+                    <div class="expense-info">
+                        <span class="expense-icon">🏠</span>
+                        <div>
+                            <strong>House Rent</strong>
+                            <small>Rent</small>
+                        </div>
+                    </div>
+
+                    <strong>$300.00</strong>
+                </div>
+
+                <div class="expense-row">
+                    <div class="expense-info">
+                        <span class="expense-icon">🎬</span>
+                        <div>
+                            <strong>Movie Ticket</strong>
+                            <small>Entertainment</small>
+                        </div>
+                    </div>
+
+                    <strong>$15.00</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="dashboard-footer">
+            <p>© 2026 SpendWise. Smart budgeting made simple.</p>
+        </footer>
+
+    </main>
+
+</div>
+```
+
+</body>
+
+</html>
