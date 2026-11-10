@@ -1,7 +1,7 @@
 # SpendWise - Week 7: Make SpendWise Interactive
 
 SPENDWISE URL
-:https://l.facebook.com/l.php?u=https%3A%2F%2Fbudgettracker-spendwise.netlify.app%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgVicmlkETFTY2tuMm8zUjk1RmxKS2t1c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHydtDHfVLDhvp5iVeXepf8hHhQVZ4W33tFY36-w5xh7gCsGEgohJ-XZBTwpr_aem_YDOfNqcFgVw1EDMDeWzW6w&h=AUCFjaOpjbHg3XZrYa6laaYkID4JJdtfkFP0P0Uy0Gke9Lxftqf9hvTGswWARc-LeapmtC53-iWPjQSckpYmdt5hDqt2fOgzTaIq7pJUP6XCWW9R3XoHoM7ONFq1zfw
+https://budgettracker-spendwise.netlify.app/
 
 
 SpendWise is a professional personal budgeting dashboard that helps users record expenses, monitor their monthly budget, understand spending by category, and make better financial decisions.
